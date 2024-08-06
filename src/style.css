@@ -1,0 +1,75 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }  
+  body {
+    font-family: sans-serif;
+    background-color: #fafafa;
+    display: flex; /* Menambahkan flexbox untuk mengatur posisi elemen secara vertikal */
+    justify-content: center; /* Menyejajarkan elemen secara horizontal di tengah */
+    align-items: center; /* Menyejajarkan elemen secara vertikal di tengah */
+    min-height: 100vh; /* Menyesuaikan tinggi halaman minimal seluruh layar */
+  }
+  
+  /* Styling Container Utama */
+  .login-container {
+    width: 400px; /* Sesuaikan lebar sesuai kebutuhan */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    margin-top: 200px;
+  }
+  
+  /* Styling Formulir Login */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Styling Label */
+  label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #000000;
+  }
+  .label{
+    text-align: start;
+  }
+  
+  /* Styling Input */
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+  }
+  
+  /* Styling Tombol Login */
+  button {
+    padding: 12px 20px;
+    /* background-color: #000; */
+    color: #000000;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .btn{
+    background-color: #ffffff;
+  }
+  .error-message{
+    color: red;
+  }
+
+  /* Media Query untuk Responsivitas (Opsional) */
+  @media (max-width: 500px) {
+    /* Modifikasi tata letak untuk layar sempit */
+    .login-container {
+      width: 90%; /* Sesuaikan lebar sesuai kebutuhan */
+    }
+  }
+  

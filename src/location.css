@@ -1,0 +1,83 @@
+/* src/App.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+  
+  .App {
+    text-align: center; /* Align contents to the left */
+    padding: 20px;
+  }
+  
+  .location-table-container {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  
+  .location-table {
+    width: 100%; /* Full width of the viewport */
+    max-width: 1200px; /* Maximum width to maintain readability */
+    margin: 20px auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    display: inline-block; /* Align table to the left */
+  }
+  
+  .location-table h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  .location-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .location-table th, .location-table td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: left;
+    color: #555;
+  }
+  
+  .location-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .location-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .location-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .location-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: burlywood;
+    color: white;
+  }
+.active{
+  background-color: green;
+}
+.inactive{
+  background-color: red;
+}
+.td{
+  color: black;
+}
+  
